@@ -1,0 +1,22 @@
+.tasks-list-container{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+}
+
+.tasks-list{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+    
+
+.tasks-select{  
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}

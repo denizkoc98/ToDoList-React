@@ -1,0 +1,83 @@
+.task-container{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.task-container-background{
+    display: flex;
+    flex-grow: 1;
+    margin: 10px auto 0 auto;
+    padding: 0 2px;
+    border-radius: 3px;
+    background: white;
+    height:40px;
+    justify-content: space-between;
+}
+
+.task-container-background:hover{
+    background-color: #ccc;
+}
+
+.task-term-container{
+    display: flex;
+    width: 90%;
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    align-items: center;
+}
+
+.task-term{
+    font-size: 15px;
+    color: #514c4c;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.delete-button{
+    
+    width: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 3px;
+    align-items: center;
+    padding-left: 4.7px;
+
+}
+.delete-button svg{
+    width: 11px;
+    height: 12px;
+    padding-bottom: 2px;
+
+}
+.done-button{
+    width: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 3px;
+    align-items: center;
+    padding-left: 3.5px;
+}
+
+.done-button svg {
+    width: 14px;
+    height: 16px;
+    padding-bottom: 2px;
+}
+
+.delete-button:hover, .done-button:hover{
+    background-color: rgb(97, 97, 97, 0.5);
+    cursor: pointer;
+}
